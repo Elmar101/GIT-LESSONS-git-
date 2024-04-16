@@ -97,3 +97,11 @@
 
 * git reset HEAD fayilName.uzantisi => eger edilen deyisiklik add olub stage area düşibsə həmin dəyişiyliyi change alir yeni working area alir
   eger sonrada git checkout -- fileName.uzantisini yazarsaq bütün dəyişiklik geri alinacaq 
+
+* git rm fileName.uzantisi => hemin fayli silir(fayil silmek) => fayl local Repoda(add commit) olsa da silir 
+
+* git rm -r folderName/ => folder ve daxilindeki filelari silir  => folder local Repoda(add commit) olsa bile 
+
+* git mv text.txt test.txt => text.txt faylin adi deyishib test.txt olur
+
+* git mv text.txt folderName/ => foldere dashiyir ex: git mv text.txt dosya/ => dosya/text.txt  2) git mv text.txt dosya/abc.txt => dosya/abc.txt
