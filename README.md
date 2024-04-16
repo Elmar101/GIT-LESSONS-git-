@@ -52,4 +52,5 @@
 * git branch m <old branch name> <new branch name> - branchin adini deyismek
 
 * git log => hazirda olduqumuz branchdeki commitleri görə bilərik olurda hansisa fayil silinse yada nese deyisiklik silsek  
-  biz git log ederek evelki commiti checkout ede bilerik "git checkout commit1 --."
+  biz git log ederek evelki commiti checkout ede bilerik "git checkout commit1 -- . " yada sol terefde fayili "discard changes" edirik 
+  
