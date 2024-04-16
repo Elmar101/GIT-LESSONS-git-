@@ -105,3 +105,5 @@
 * git mv text.txt test.txt => text.txt faylin adi deyishib test.txt olur
 
 * git mv text.txt folderName/ => foldere dashiyir ex: git mv text.txt dosya/ => dosya/text.txt  2) git mv text.txt dosya/abc.txt => dosya/abc.txt
+
+* alias özəlliyi => git config --global alias.st status => git status yerine git st yazacayiq (git status da ishe yarayir)
