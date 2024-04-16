@@ -50,3 +50,6 @@
 * pull request => PR yaratmaq - yeni branch yaradib push etdikde hersey okeyse hemin branchi MR (MERGE REQUEST) edirik main branchimize sonrada yaratdiqimiz branchi silirik 
   localdan silmek ichin ise terminalda   "git branch -d LocalBranchName"   Remote branchini silmekden ötri isə  "git push origin --delete remoteBranchnName"
 * git branch m <old branch name> <new branch name> - branchin adini deyismek
+
+* git log => hazirda olduqumuz branchdeki commitleri görə bilərik olurda hansisa fayil silinse yada nese deyisiklik silsek  
+  biz git log ederek evelki commiti checkout ede bilerik "git checkout commit1 --."
