@@ -1,8 +1,11 @@
 ![alt text](image-5.png)
 ![alt text](image-6.png)
+*Git => bizim versialar arasindaki keçid işlərini və etdiyimiz dəyişiklikləri uzaq bir servere əlavə etməyimizə köməklik edən bir alətdir(tooldu)
+* GitHub => Bizim localdaki fayillari saxlayan Uzaqdaki server demek olar
 ![alt text](image-7.png)
 ![alt text](image-8.png)
 ![alt text](image-9.png)
+![alt text](image-10.png)
 * git init - .git uzantili Projevtle eyni path de folder yaradir (Local Repository)
 * git config --global init.defaultBranch <branchName> => default branch-in adini dəyişmək => git config --global init.defaultBranch develop
 * ![alt text](image.png)
