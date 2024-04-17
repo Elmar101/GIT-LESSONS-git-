@@ -94,6 +94,8 @@
 
 * pull request => PR yaratmaq - yeni branch yaradib push etdikde hersey okeyse hemin branchi MR (MERGE REQUEST) edirik main branchimize sonrada yaratdiqimiz branchi silirik
   localdan silmek ichin ise terminalda   "git branch -d LocalBranchName"   Remote branchini silmekden ötri isə  "git push origin --delete remoteBranchnName"
+  1 "git push origin --delete remoteBranchnName"  | "git push origin -dremoteBranchnName"
+  2  "git branch -d LocalBranchName"
 
 * git branch m <old branch name> <new branch name> - branchin adini deyismek
 
