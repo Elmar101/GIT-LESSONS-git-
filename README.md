@@ -53,6 +53,13 @@
 
 * git merge - isdediyimiz branchi hazirda olduqumuz branch ile birləşdirir
 	      Eyni dosyada eyni setirde dəyişliklər olubsa hansini seçmek lazimdi diə önərilər edər
+* Bizim bugFix adinda branchimiz var ve biz burda bug fix eddikden sonra Uzaq Repodaki masteri bura pull edib sonra push etmeliyik bu işi iki cür görmək olar birinci       
+  olduqumuz bugFix brançində "git pull origin master"  edirikgit yada qayidiriq master branchine orda "git pull" edirik sonra bugfix brancimize gelib orda "git merge develop" edirik (
+    1) git checkout -b bugFix (birdene test.txt fayli yaradaq)
+    2) git pull origin master (herzaman et confilict olmasin sonra)
+    3) git add.  ve git commit -m"upd"
+    4) git pull origin master      bundan      sonra git push
+    4 ci ni belede etmek olar => git checkout master   sonra git pull   sonra   git checkout bugfix   sonra git merge master   sonra git push
 
 * git remote - Localdaki repositorimizi uzaqdaki repomuza baqlamaqimizi sağlayır
                yəni gitHub, gitLab kimi uzaq Repolara(Bir gitHub repozitorisi yaradiriq
