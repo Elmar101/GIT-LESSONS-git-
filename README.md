@@ -53,6 +53,8 @@
 
 * git merge - isdediyimiz branchi hazirda olduqumuz branch ile birləşdirir
 	      Eyni dosyada eyni setirde dəyişliklər olubsa hansini seçmek lazimdi diə önərilər edər
+  git merge => localdaki branchleride bir birine birleshdirir meselen men x branchinde ishleyirem ve birde menim y branchim var men bu iki branchi birlesdirib tek commit altinda push etmek isdeyirem bu zaman x branchine gelib y branchini merge edib sonra tek commitle pushlayiram ve x branchini silirem
+
 * Bizim bugFix adinda branchimiz var ve biz burda bug fix eddikden sonra Uzaq Repodaki masteri bura pull edib sonra push etmeliyik bu işi iki cür görmək olar birinci       
   olduqumuz bugFix brançində "git pull origin master"  edirikgit yada qayidiriq master branchine orda "git pull" edirik sonra bugfix brancimize gelib orda "git merge develop" edirik (
     1) git checkout -b bugFix (birdene test.txt fayli yaradaq)
