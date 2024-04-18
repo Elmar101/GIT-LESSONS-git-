@@ -46,6 +46,8 @@
 * git reset HEAD fayilName.uzantisi => eger edilen deyisiklik add olub stage area düşibsə həmin dəyişiyliyi change alir yeni working area alir
   eger sonrada git checkout -- fileName.uzantisini yazarsaq bütün dəyişiklik geri alinacaq 
 
+* git reset --soft HEAD^ => son commiti geri alir 
+
 * git resotere <File Name>  --stage - Local Repositorideki dəyişiklikləri Stage Alanına daşıyır 
 
 * git branch <Branch Name> - Yeni bir branch yaradir
