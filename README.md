@@ -1,3 +1,5 @@
+*! ashaqidaki shekilde sehf gedib =>  Mərkəzləşdirilmiş Versiya Nəzarət Sistemi
+
 ![alt text](image-5.png)
 
 
