@@ -1,3 +1,21 @@
+--------------------------Git konfigurasiya github ssh key-------------------------------------------------------------------------------------
+
+bash =>  - ssh-keygen -t rsa -b 4096 -C "github" && cat ~/.ssh/id_rsa.pub
+| ssh-keygen -t rsa -b 4096 -C "github" && cat ~/.ssh/id_rsa.pub => 1) git -keygen -o => enter , enter , enter 2) cat ~/.ssh/id_rsa.pub (copy) |
+
+burda ssh key gelir -> 'xyz' - bunu aliriq yeni xyz di sonrada aparib 
+git profile => settings => ssh and gps keys => new ssh key buttonuna click edib 
+yenisini elave edecem - title = 'ozun ad ver' key='xyz' olusdurduqumuz ssh key
+
+ssh => iki key yaradir privite and public - pub(public) olani gitlab, githuba 
+elave edirik biz gitlaba sorqu atanda biz olduqunu tanisin die
+Bu onun ichindirki biz her defe git pull edende bizden user name ve password isdemesin
+
+
+
+----------------------------------------------------------------------------------------------------------------------------------------------
+
+
 *! ashaqidaki shekilde sehf gedib =>  Mərkəzləşdirilmiş Versiya Nəzarət Sistemi
 
 ![alt text](image-5.png)
