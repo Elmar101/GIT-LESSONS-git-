@@ -43,6 +43,9 @@
 
 * git reset HEAD <File Name> - Local Repositorideki dəyişiklikləri Stage Alanına daşıyır
 
+* git reset HEAD fayilName.uzantisi => eger edilen deyisiklik add olub stage area düşibsə həmin dəyişiyliyi change alir yeni working area alir
+  eger sonrada git checkout -- fileName.uzantisini yazarsaq bütün dəyişiklik geri alinacaq 
+
 * git resotere <File Name>  --stage - Local Repositorideki dəyişiklikləri Stage Alanına daşıyır 
 
 * git branch <Branch Name> - Yeni bir branch yaradir
@@ -107,9 +110,6 @@
 * git diff => fayillarda edilen deyisikleri görsədir 
 
 * git checkout -- fileName.uzantisi => eger fayilda sehfen edilen deyisiklikleri geri almaq isdeyirikse eger birden chox fayilsa adlarini qeyd etmekdense -- . qoya bilerik
-
-* git reset HEAD fayilName.uzantisi => eger edilen deyisiklik add olub stage area düşibsə həmin dəyişiyliyi change alir yeni working area alir
-  eger sonrada git checkout -- fileName.uzantisini yazarsaq bütün dəyişiklik geri alinacaq 
 
 * git rm fileName.uzantisi => hemin fayli silir(fayil silmek) => fayl local Repoda(add commit) olsa da silir 
   use --cached to keep the file, or -f to force removal => git rm --cached fileName.uzanti  | git rm -f fileName.uzanti 
