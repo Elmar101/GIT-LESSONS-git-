@@ -49,8 +49,9 @@
 
 ------------------------------------------RESET------------------------------------------------------------------------------------------------------
 
-* git reset --soft HEAD^ => son commiti geri alir Staged Area ya |local Repository -> Staged Area => git reset --soft HEAD^ 
-* git reset --mixed HEAD^ => son commiti geri alir Working Area ya |local Repository -> Working Area => git reset --mixed HEAD^ 
+* git reset --soft HEAD^ => son commiti geri alir Staged Area ya |local Repository -> Staged Area| => git reset --soft HEAD^ 
+* git reset --mixed HEAD^ => son commiti geri alir Working Area ya |local Repository -> Working Area| => git reset --mixed HEAD^ 
+* git reset --hard HEAD^ => son commiti geri alir Working Areadan bile silir -> |butun deyisiklikler silinir|=> git reset --hard HEAD^ 
 
 
 -----------------------------------------------------------------------------------------------------------------------------------------------------
