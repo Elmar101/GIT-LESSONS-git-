@@ -112,6 +112,7 @@
   eger sonrada git checkout -- fileName.uzantisini yazarsaq bütün dəyişiklik geri alinacaq 
 
 * git rm fileName.uzantisi => hemin fayli silir(fayil silmek) => fayl local Repoda(add commit) olsa da silir 
+  use --cached to keep the file, or -f to force removal => git rm --cached fileName.uzanti  | git rm -f fileName.uzanti 
 
 * git rm -r folderName/ => folder ve daxilindeki filelari silir  => folder local Repoda(add commit) olsa bile 
 
@@ -120,3 +121,12 @@
 * git mv text.txt folderName/ => foldere dashiyir ex: git mv text.txt dosya/ => dosya/text.txt  2) git mv text.txt dosya/abc.txt => dosya/abc.txt
 
 * alias özəlliyi => git config --global alias.st status => git status yerine git st yazacayiq (git status da ishe yarayir)
+
+* git log -p -2 => son iki commiti gorsedecek (-p = --patch)
+
+* git log --pretty=oneline => 
+                           ca82a6dff817ec66f44342007202690a93763949 Change version number
+                           085bb3bcb608e1e8451d4b2432f8ecbe6306e7e7 Remove unnecessary test
+                           a11bef06a3f659402fe7563abf99ad00de2209e6 Initial commit
+
+* git log --since=2.weeks => son iki hefdede olunan commintleri gorsedecek
