@@ -46,7 +46,14 @@
 * git reset HEAD fayilName.uzantisi => eger edilen deyisiklik add olub stage area düşibsə həmin dəyişiyliyi change alir yeni working area alir
   eger sonrada git checkout -- fileName.uzantisini yazarsaq bütün dəyişiklik geri alinacaq 
 
-* git reset --soft HEAD^ => son commiti geri alir 
+
+------------------------------------------RESET------------------------------------------------------------------------------------------------------
+
+* git reset --soft HEAD^ => son commiti geri alir Staged Area ya |local Repository -> Staged Area => git reset --soft HEAD^ 
+* git reset --mixed HEAD^ => son commiti geri alir Working Area ya |local Repository -> Working Area => git reset --mixed HEAD^ 
+
+
+-----------------------------------------------------------------------------------------------------------------------------------------------------
 
 * git resotere <File Name>  --stage - Local Repositorideki dəyişiklikləri Stage Alanına daşıyır 
 
