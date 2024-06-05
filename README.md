@@ -158,3 +158,7 @@ Bu onun ichindirki biz her defe git pull edende bizden user name ve password isd
                            a11bef06a3f659402fe7563abf99ad00de2209e6 Initial commit
 
 * git log --since=2.weeks => son iki hefdede olunan commintleri gorsedecek
+
+* .gitIgnore => fayil yada folderin adini yazaraq git repona elave edilmesinin qarshisina ala bilersen
+* .gitIgnore => a.txt  -> a.txt uzaq repona elave edilmiyecek ;  2 )  folder/*  folderin altindaki hech bir fayil uzaq repona elave edilmiyecek
+  3) !folder/name.txt => bu o demekdir folderin daxilindeki name.txt uzaq repona elave edilecek 
