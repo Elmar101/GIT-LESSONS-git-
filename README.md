@@ -161,4 +161,10 @@ Bu onun ichindirki biz her defe git pull edende bizden user name ve password isd
 
 * .gitIgnore => fayil yada folderin adini yazaraq git repona elave edilmesinin qarshisina ala bilersen
 * .gitIgnore => a.txt  -> a.txt uzaq repona elave edilmiyecek ;  2 )  folder/*  folderin altindaki hech bir fayil uzaq repona elave edilmiyecek
-  3) !folder/name.txt => bu o demekdir folderin daxilindeki name.txt uzaq repona elave edilecek 
+  3) !folder/name.txt => bu o demekdir folderin daxilindeki name.txt uzaq repona elave edilecek
+
+* git cherry-pick commit-hash-code => Bizim A branchimizdeki atillan commitleri B branchine elave etmeye komeklik edir
+  ex: A branchinde 3 eded commitim var ama men burdan 2 commiti B branchine elave etmek isdeikde
+  A branchinde git log edib => ordaki son 2 commitin hashini gotirib
+  B branchine daxil olub git cherry-pick 09ffffyhrbhj7888  098hjgfvgvjjgjhj sonrada git commit -a -m"push" => git push
+  Remotda B branchimde hemin 2 commit olur 
